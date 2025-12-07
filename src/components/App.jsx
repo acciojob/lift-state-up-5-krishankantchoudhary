@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       {isLoggedIn ? (
-        <p>You are logged in.</p>
+        <p>You are logged in!</p>
       ) : (
         <Log isLoggedIn={isLoggedIn} onLogin={handlelogin} />
       )}
