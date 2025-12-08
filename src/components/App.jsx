@@ -13,7 +13,7 @@ const App = () => {
       {isLoggedIn ? (
         <p>You are logged in!</p>
       ) : (
-        <Log isLoggedIn={isLoggedIn} onLogin={handlelogin} />
+        <Log onLogin={handlelogin} />
       )}
     </div>
   );
